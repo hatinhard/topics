@@ -25,10 +25,9 @@ a {
 
 .news_card {
   background-color: white;
-  padding: 10px;
   display: flex;
   flex-direction: column;
-  max-height: 420px;
+  max-width: 376px;
 }
 
 time {
@@ -51,6 +50,7 @@ time {
   line-height: 24px;
   margin-top: 10px;
   flex-grow: 1;
+  padding: 10px;
 }
 
 .card_more {
