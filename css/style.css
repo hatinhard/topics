@@ -20,6 +20,8 @@ a {
 .container {
   max-width: 1208px;
   margin: 0 auto;
+  box-sizing: content-box;
+  padding: 0 16px;
 }
 
 .news_showcase {
