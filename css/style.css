@@ -65,6 +65,11 @@ time {
   font-size: 16px;
   line-height: 24px;
   margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card_more {
